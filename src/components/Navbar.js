@@ -9,6 +9,7 @@ const Navbar = () => {
     const [showNav,setShowNav]=useState(false);
     const handleClick=()=>{
         let newvalue=!showNav;
+        console.log(newvalue);
         setShowNav(newvalue);
     }
   return (
@@ -16,7 +17,7 @@ const Navbar = () => {
         <Link to="/">
             <h1>Ujjwal Sotra</h1>
         </Link>
-        <ul className={showNav?'nav-menu':'nav-menuhide'}>
+        <ul className={showNav?'nav-menu active':'nav-menu'}>
             <li>
                 <Link to="/">Home</Link>
             </li>
