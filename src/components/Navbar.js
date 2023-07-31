@@ -7,13 +7,24 @@ import {useState} from 'react';
 
 const Navbar = () => {
     const [showNav,setShowNav]=useState(false);
+    const [navColor,setNavColor]=useState(false);
+
+    const changeColor=()=>{
+        if(window.scrollY>=100){
+            setNavColor(true);
+        }
+        else{
+            setNavColor(false);
+        }
+    }
     const handleClick=()=>{
         let newvalue=!showNav;
         console.log(newvalue);
         setShowNav(newvalue);
     }
+    window.addEventListener("scroll",changeColor);
   return (
-    <div className="header">
+    <div className={navColor?'header header-bg':'header'}>
         <Link to="/">
             <h1>Ujjwal Sotra</h1>
         </Link>
