@@ -1,6 +1,6 @@
 import React from 'react'
 import './stylesheet/Footer.css';
-import {FaHome, FaMailBulk, FaPhone,FaFacebook, FaYoutube, FaLinkedin} from 'react-icons/fa';
+import {FaHome, FaMailBulk, FaPhone, FaYoutube, FaLinkedin, FaGithub} from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -30,7 +30,7 @@ const Footer = () => {
                 <h4>About the Company</h4>
                 <p>Lorems aujisb xnnus bashoas xijibc asjbcshc absbcs sbcsbssicgsb</p>
                 <div className='social'>
-                <FaFacebook size={30} style={{color:"#fff",marginRight:"2rem"}}/>
+                <FaGithub size={30} style={{color:"#fff",marginRight:"2rem"}}/>
                 <FaYoutube size={30} style={{color:"#fff",marginRight:"2rem"}}/>
                 <FaLinkedin size={30} style={{color:"#fff",marginRight:"2rem"}}/>
                 </div>
