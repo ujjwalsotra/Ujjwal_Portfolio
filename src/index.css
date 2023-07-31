@@ -20,7 +20,7 @@ ul{
   list-style-type: none;
 }
 .btn{
-    background: #ffbd39;
+    background: #f1ab20;
     border: 1px solid #ffbd39 !important;
     color: #000000 !important;
     padding: 12px 32px;
@@ -33,5 +33,21 @@ ul{
 .btn-white{
   border: 1px solid rgba(255, 255, 255, 0.5) !important;
   background: transparent !important;
-  color: #fff !important
+  color: #fff !important;
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn:hover{
+  color: white !important;
+  background: transparent !important;
+  transition: 0.33s;
+}
+.btn-white:hover{
+  color: black !important;
+  background:#f1ab20 !important ;
+  transition: 0.33s;
 }
