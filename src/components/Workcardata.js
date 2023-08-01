@@ -13,6 +13,24 @@ const ProjectCardData = [
     text: "Project ka sara description",
     view: "https://github.com/ujjwalsotra",
   },
+  {
+    imgsrc: pro2,
+    title: "Project2 ka title",
+    text: "Project ka sara description",
+    view: "https://github.com/ujjwalsotra",
+  },
+  {
+    imgsrc: pro2,
+    title: "Project2 ka title",
+    text: "Project ka sara description",
+    view: "https://github.com/ujjwalsotra",
+  },
+  {
+    imgsrc: pro2,
+    title: "Project2 ka title",
+    text: "Project ka sara description",
+    view: "https://github.com/ujjwalsotra",
+  },
 ];
 
 export default ProjectCardData;
