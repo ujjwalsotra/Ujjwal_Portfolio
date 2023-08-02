@@ -1,7 +1,6 @@
 import './stylesheet/Workdone.css';
 import React from 'react'
 import Workdone from './Workdone';
-import Workcarddata from './Workcardata';
 import ProjectCardData from './Workcardata';
 
 const Work = () => {
@@ -15,7 +14,7 @@ const Work = () => {
                     key={ind}
                     imgsrc={item.imgsrc}
                     title={item.title}
-                    text={item.title}
+                    text={item.text}
                     view={item.view}
                     />
                 )
