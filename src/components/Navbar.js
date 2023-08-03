@@ -39,7 +39,7 @@ const Navbar = () => {
                 <Link to="/About">About</Link>
             </li>
             <li>
-                <Link to="https://drive.google.com/file/d/1_bXsV4w3wbw4wc5qgVPXUkBDJx3WVAb8/view?usp=sharing" target='_blank'>Resume</Link>
+                <Link to="https://drive.google.com/file/d/1tt5ZH4zeVX1yP23GvFwExjjdqPOBGlnG/view?usp=sharing" target='_blank'>Resume</Link>
             </li>
             <li>
                 <Link to="/Contact">Contact</Link>
