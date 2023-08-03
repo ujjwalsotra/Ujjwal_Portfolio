@@ -3,6 +3,9 @@ import './stylesheet/Footer.css';
 import {FaHome, FaMailBulk, FaPhone, FaYoutube, FaLinkedin, FaGithub} from 'react-icons/fa';
 
 const Footer = () => {
+    const routeToThisPage=(passedUrl)=>{
+        window.location.href=passedUrl;
+    }
   return (
     <div className='footer'>
         <div className='footer-container'>
@@ -10,7 +13,7 @@ const Footer = () => {
                 <div className='location'>
                     <FaHome size={20} style={{color:"#fff",marginRight:"2rem"}}/>
                     <div>
-                        <p>My addresss........</p>
+                        <p>Jammu, Jammu and Kashmir, India</p>
                     </div>
                 </div>
                 <div className='phone'>
@@ -28,11 +31,11 @@ const Footer = () => {
             </div>
             <div className='right'>
                 <h4>About the Company</h4>
-                <p>Lorems aujisb xnnus bashoas xijibc asjbcshc absbcs sbcsbssicgsb</p>
+                <p>I have a youtube channel named U__code where i make coding related videos as my hobby.</p>
                 <div className='social'>
-                <FaGithub size={30} style={{color:"#fff",marginRight:"2rem"}}/>
-                <FaYoutube size={30} style={{color:"#fff",marginRight:"2rem"}}/>
-                <FaLinkedin size={30} style={{color:"#fff",marginRight:"2rem"}}/>
+                <FaGithub  onClick={()=>routeToThisPage('https://github.com/ujjwalsotra')} size={30} style={{color:"#fff",marginRight:"2rem",cursor:"pointer"}}/>
+                <FaYoutube onClick={()=>routeToThisPage('https://www.youtube.com/channel/UCdlS-DqBoLaLliEGUw-qpxA')} size={30} style={{color:"#fff",marginRight:"2rem",cursor:"pointer"}}/>
+                <FaLinkedin onClick={()=>routeToThisPage('https://leetcode.com/ujjwalsotra1121/')} size={30} style={{color:"#fff",marginRight:"2rem",cursor:"pointer"}}/>
                 </div>
             </div>
         </div>

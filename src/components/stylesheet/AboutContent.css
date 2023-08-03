@@ -48,9 +48,9 @@
     z-index: 5;
 }
 .about{
-    background:url('../../media/img4.jpg');
-    background-size:contain;
-    background-attachment:scroll;
+    background:url('../../media/img9.jpg');
+    background: size 100px;;
     background-repeat: no-repeat;
-    background-position: 25% 75%;
+    background-attachment:scroll;
+    background-position: 30% 35%;
 }

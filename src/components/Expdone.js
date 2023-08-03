@@ -9,7 +9,7 @@ const Expdone = (props) => {
         <p>{props.text}</p>
     </div>
         <div className='pro-btns'>
-            <NavLink to={props.view} className="btn">Certificate</NavLink>
+            <NavLink to={props.view} className="btn" target='_blank'>Certificate</NavLink>
         </div>
 </div>
   )

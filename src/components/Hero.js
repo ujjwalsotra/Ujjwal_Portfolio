@@ -1,6 +1,6 @@
 import './stylesheet/Hero.css';
 import React from 'react'
-import introimg from "../media/img1.png"
+import introimg from "../media/img1.jpg"
 import {Link} from 'react-router-dom'
 
 const Hero = () => {
@@ -10,8 +10,8 @@ const Hero = () => {
             <img className="intro-img" src={introimg} alt='intro image of mine'/>
         </div>
         <div className='content'>
-            <p>lorem jsjnbjsnc</p>
-            <h1>React Develop</h1>
+            <p>Hello everyone</p>
+            <h1>CSE Undergraduate & Developer </h1>
             <div>
                 <Link to='Project/' className='btn'>Project</Link>
                 <Link to='Contact/' className='btn-white'>Contact</Link>

@@ -6,9 +6,10 @@
 }
 .heroimg::before{
     content:"";
-    background: url('../../media/img2.jpg');
-    background-size: cover;
-    background-position: center;
+    background: url('../../media/img5.jpg');
+    background-size: 75% ;
+    background-repeat: no-repeat;
+    background-position: 60% 30%;
     height: 100%;
     width: 100%;
     position: absolute;

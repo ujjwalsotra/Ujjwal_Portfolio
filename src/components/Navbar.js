@@ -39,6 +39,9 @@ const Navbar = () => {
                 <Link to="/About">About</Link>
             </li>
             <li>
+                <Link to="https://drive.google.com/file/d/1_bXsV4w3wbw4wc5qgVPXUkBDJx3WVAb8/view?usp=sharing" target='_blank'>Resume</Link>
+            </li>
+            <li>
                 <Link to="/Contact">Contact</Link>
             </li>
         </ul>
