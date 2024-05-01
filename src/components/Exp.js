@@ -13,6 +13,7 @@ const Exp = () => {
                 key={ind}
                 imgsrc={item.imgsrc}
                 title={item.title}
+                desg={item.desg}
                 text={item.text}
                 view={item.view}
                 />

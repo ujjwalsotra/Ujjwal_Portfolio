@@ -14,16 +14,19 @@ const Form = () => {
       console.log(error.text);
     })
   }
+  const handleCLick=()=>{
+    alert("Message sent 🥰");
+  }
   return (
     <div className='form'>
         <form ref={form} onSubmit={sendEmail}>
         <label>Your Name</label>
-        <input type='text' name='name'></input>
+        <input type='text' name='name' ></input>
         <label>Email</label>
         <input type='email' name='email'></input>
         <label>Message</label>
         <textarea rows="6" placeholder='Type Your Message here' name='message'/>
-        <input type='submit' value='send' style={{backgroundColor:"orangered"}}/>
+        <input type='submit' value='send' style={{backgroundColor:"orangered"}} onClick={handleCLick}/>
         </form>
     </div>
   )
