@@ -9,7 +9,7 @@ const AboutContent = () => {
     <div className='about'>
         <div className='left'>
             <h1 style={{color:"black"}}>Konichiwa</h1>
-            <p>Associate Software engineer at GlobalLogic.
+            <p>DevOps Engineer at Amazon. Ex- GlobalLogic, Samsung.
             CSE Undergrad. BIT, Mesra
             C++, React, Git, Github,
             Data Structures and algorithms

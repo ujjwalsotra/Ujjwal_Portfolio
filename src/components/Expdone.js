@@ -11,7 +11,7 @@ const Expdone = (props) => {
       </div>
       <div className="pro-btns">
         <NavLink to={props.view} className="btn" target="_blank">
-          {props.view.length === 0 ? "Currently" : "Certificate"}
+          {props.view.length === 0 ? "Currently" : "Previously"}
         </NavLink>
       </div>
     </div>
